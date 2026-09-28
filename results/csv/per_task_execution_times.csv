@@ -1,0 +1,64 @@
+scheduler,task_id,vm_id,exec_time_sec,wait_time_sec,energy_joules
+Random,1,1,5.75,0.0,1005.67
+Random,2,2,8.62,0.0,1143.1
+Random,3,0,4.31,0.0,1028.2
+Random,4,1,5.75,4.25,1005.67
+Random,5,0,2.13,3.31,468.6
+Random,6,3,8.52,0.0,841.8
+Random,7,2,4.56,6.12,592.8
+Random,8,3,9.12,7.52,820.8
+Random,9,2,4.96,9.68,644.8
+Round Robin,1,0,4.31,0.0,948.2
+Round Robin,2,1,5.75,0.0,1035.67
+Round Robin,3,2,8.62,0.0,1165.6
+Round Robin,4,3,17.24,0.0,1596.6
+Round Robin,5,0,2.13,2.31,468.6
+Round Robin,6,1,2.84,3.75,497.0
+Round Robin,7,2,4.56,6.62,592.8
+Round Robin,8,3,9.12,15.24,820.8
+Round Robin,9,0,2.48,2.44,545.6
+Greedy EFT,1,0,4.31,0.0,948.2
+Greedy EFT,2,1,5.75,0.0,1035.67
+Greedy EFT,3,0,4.31,3.31,948.2
+Greedy EFT,4,2,8.62,0.0,1188.1
+Greedy EFT,5,1,2.84,4.25,497.0
+Greedy EFT,6,3,8.52,0.0,841.8
+Greedy EFT,7,0,2.28,5.62,501.6
+Greedy EFT,8,1,3.04,5.59,532.0
+Greedy EFT,9,0,2.48,6.9,545.6
+Min Workload,1,0,4.31,0.0,948.2
+Min Workload,2,1,5.75,0.0,1035.67
+Min Workload,3,2,8.62,0.0,1165.6
+Min Workload,4,3,17.24,0.0,1596.6
+Min Workload,5,0,2.13,2.31,468.6
+Min Workload,6,1,2.84,3.75,497.0
+Min Workload,7,2,4.56,6.62,592.8
+Min Workload,8,3,9.12,15.24,820.8
+Min Workload,9,0,2.48,2.44,545.6
+QLS,1,0,4.31,0.0,948.2
+QLS,2,3,17.24,0.0,1566.6
+QLS,3,3,17.24,16.74,1551.6
+QLS,4,1,5.75,0.0,1095.67
+QLS,5,1,2.84,5.25,497.0
+QLS,6,0,2.13,1.81,468.6
+QLS,7,0,2.28,3.44,501.6
+QLS,8,0,2.28,5.22,501.6
+QLS,9,1,3.31,6.09,578.67
+CDDQL (Paper),1,0,4.31,0.0,948.2
+CDDQL (Paper),2,0,4.31,3.81,948.2
+CDDQL (Paper),3,0,4.31,7.62,948.2
+CDDQL (Paper),4,0,4.31,11.43,948.2
+CDDQL (Paper),5,0,2.13,15.24,468.6
+CDDQL (Paper),6,0,2.13,16.87,468.6
+CDDQL (Paper),7,0,2.28,18.5,501.6
+CDDQL (Paper),8,0,2.28,20.28,501.6
+CDDQL (Paper),9,0,2.48,22.06,545.6
+AE-CDDQL (Proposed),1,0,4.31,0.0,948.2
+AE-CDDQL (Proposed),2,0,4.31,3.81,948.2
+AE-CDDQL (Proposed),3,0,4.31,7.62,948.2
+AE-CDDQL (Proposed),4,0,4.31,11.43,948.2
+AE-CDDQL (Proposed),5,1,2.84,0.0,617.0
+AE-CDDQL (Proposed),6,1,2.84,2.34,497.0
+AE-CDDQL (Proposed),7,1,3.04,4.68,532.0
+AE-CDDQL (Proposed),8,1,3.04,7.22,532.0
+AE-CDDQL (Proposed),9,1,3.31,9.76,578.67

@@ -1,0 +1,6 @@
+variant,description,state_mode,adaptive_eps,reward_mode,makespan_sec,avg_execution_time_sec,total_execution_time_sec,avg_waiting_time_sec,total_waiting_time_sec,total_energy_joules,total_energy_kwh,total_cost_usd,avg_vm_utilization_pct
+CDDQL,"Baseline CDDQL (Fixed eps=0.5, 3D State, Baseline Reward)",baseline,False,baseline,142.7,3.17,142.7,59.95,2697.65,31394.0,0.00872,0.01142,25.0
+CDDQL + Adaptive eps,Baseline + Adaptive Epsilon decay,baseline,True,baseline,142.7,3.17,142.7,59.95,2697.65,31394.0,0.00872,0.01142,25.0
+CDDQL + Energy State,Baseline + 5D Energy-Aware State,energy_aware,False,baseline,142.7,3.17,142.7,59.95,2697.65,31394.0,0.00872,0.01142,25.0
+CDDQL + MO Reward,Baseline + Multi-Objective Reward,baseline,False,multi_objective,115.0,5.07,227.93,43.32,1949.37,34893.33,0.00969,0.0115,49.55
+Full AE-CDDQL,Proposed Full AE-CDDQL (All 3 Modifications),energy_aware,True,multi_objective,140.57,3.22,144.83,57.72,2597.21,31569.2,0.00877,0.0115,25.76

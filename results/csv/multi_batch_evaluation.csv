@@ -1,0 +1,8 @@
+scheduler,makespan_sec,avg_execution_time_sec,total_execution_time_sec,avg_waiting_time_sec,total_waiting_time_sec,total_energy_joules,total_energy_kwh,total_cost_usd,avg_vm_utilization_pct
+Random,100.52,5.64,253.75,17.21,774.25,36613.33,0.01017,0.01166,63.11
+Round Robin,142.02,6.55,294.88,23.14,1041.15,38303.8,0.01064,0.01152,51.91
+Greedy EFT,59.17,4.99,224.55,15.4,692.92,35096.97,0.00975,0.01156,94.88
+Min Workload,141.22,6.56,294.99,23.27,1047.1,38304.2,0.01064,0.01152,52.22
+QLS,81.31,4.99,224.55,23.29,1048.13,35989.0,0.01,0.01234,69.04
+CDDQL (Paper),142.7,3.17,142.7,59.95,2697.65,31394.0,0.00872,0.01142,25.0
+AE-CDDQL (Proposed),86.2,3.59,161.53,27.27,1227.23,32267.33,0.00896,0.01154,46.85
